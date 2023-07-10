@@ -1,0 +1,196 @@
+
+$color:rgb(255, 255, 255);
+
+.start{
+    background-color: #232536;
+    font-size: 16px;
+    .navbar-toggler{
+        color: #FFD050;
+        background-color: #FFD050;
+        border-radius: none;
+    }
+    a{
+        color: $color;
+    }
+    button{
+    font-weight: 700;
+    font-size: 16px;
+        margin-right: 20px;
+        height: 40px;
+        border-radius: unset;
+    }
+}
+.fluid{
+    .container-fluid{   
+        padding: 4em 2em 1em 0em;
+        font-family:sans-serif;
+        font-style: normal;
+        color:white;
+        button{
+            padding:1em 3em 1em 3em ;
+            margin-top: 2em;
+            font-weight: 500;
+            font-size: 0.8em;
+            border-radius:unset;
+            background-color:#FFD050
+        }
+        h1{
+            width: 30em;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 64px;
+            letter-spacing: -2px;
+        }
+        h6{
+    
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            span{
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.all__posts{
+    .row{
+        padding-top: 2em;
+    }
+    .container{
+        .card{
+            border: none;
+        }
+        .card-subtitle{
+            padding-bottom: 2em;
+            letter-spacing: 3px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px; 
+            text-transform: uppercase; 
+        }
+        .card-text{
+            padding-top: 2em;
+            padding-bottom: 2em;
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+    span:hover{
+        color: black;
+    }
+
+}
+
+.spacein{
+    .choose{
+        margin: 1em 0 1em 0;
+    }
+    .icon{
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background-color: #FBF6EA;
+        border-radius: 10px;
+    }
+    .card:hover{
+        background-color: #FFD050;
+        transition: all 1s ease;
+    }
+}
+.join{
+    .container{
+        background-color: white;
+        .card{
+            background-color: white;
+            border: none;
+        }
+        button{
+            padding:1em 3em 1em 3em ;
+            margin-top: 2em;
+            font-weight: 500;
+            font-size: 0.8em;
+            border-radius:unset;
+            background-color:#FFD050
+        }
+    }
+}
+.container-fluid-2{
+    background-color:#232536;
+    .container{
+        background-color: #363849;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        .form-control{
+            background-color: #363849;
+            width: 300px;
+            margin-left: 2em;
+        }
+        button{
+            margin-left: 1em;
+            width: 100px;
+            height: 40px;
+            font-weight: 500;
+            font-size: 0.8em;
+            border-radius:unset;
+            background-color:#FFD050
+        }
+    }
+}
+
+
+
+
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
+@media (max-width: 991px) {
+    .fluid{
+        .container-fluid{
+                color: white;
+                background-image:linear-gradient( rgba(18, 19, 34, 0.925), rgba(37, 37, 39, 0.589)),url(man-in-white.png);
+                background-position: center;
+                background-size: cover;
+        }
+        div{
+            color: white;
+        }
+    }
+}
+@media (max-width: 767px){
+    .all__posts{
+        .container{
+            .row{
+                padding-top: 1em;
+            }
+            .card-text{
+                padding-top: 1em;
+                padding-bottom: 1em;
+            }
+        }
+        div#one{
+            background-image: linear-gradient(70deg, rgba(243, 243, 243, 0.788), rgba(78, 76, 77, 0.589)),url(two-women.png);
+        }
+        div#two{
+            background-image: linear-gradient(70deg, rgba(243, 243, 243, 0.788), rgba(78, 76, 77, 0.589)),url(photo-of-people.png);
+        }
+        div#three{
+            background-image: linear-gradient(70deg, rgba(243, 243, 243, 0.788), rgba(78, 76, 77, 0.589)),url(photo-of-woman.png);
+        }
+        div#four{
+            background-image: linear-gradient(70deg, rgba(243, 243, 243, 0.788), rgba(78, 76, 77, 0.589)),url(photo-of-people-walking.png);
+        }
+        div#five{
+            background-image: linear-gradient(70deg, rgba(243, 243, 243, 0.788), rgba(78, 76, 77, 0.589)),url(two-women.png);
+        }
+    }
+}

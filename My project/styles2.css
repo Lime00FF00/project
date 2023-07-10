@@ -1,0 +1,137 @@
+.start {
+  background-color: #232536;
+  font-size: 16px; }
+  .start .navbar-toggler {
+    color: #FFD050;
+    background-color: #FFD050;
+    border-radius: none; }
+  .start a {
+    color: white; }
+  .start button {
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 20px;
+    height: 40px;
+    border-radius: unset; }
+
+.fluid .container-fluid {
+  padding: 4em 2em 1em 0em;
+  font-family: sans-serif;
+  font-style: normal;
+  color: white; }
+  .fluid .container-fluid button {
+    padding: 1em 3em 1em 3em;
+    margin-top: 2em;
+    font-weight: 500;
+    font-size: 0.8em;
+    border-radius: unset;
+    background-color: #FFD050; }
+  .fluid .container-fluid h1 {
+    width: 30em;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -2px; }
+  .fluid .container-fluid h6 {
+    text-transform: uppercase;
+    letter-spacing: 3px; }
+    .fluid .container-fluid h6 span {
+      font-weight: 700; }
+
+.all__posts .row {
+  padding-top: 2em; }
+.all__posts .container .card {
+  border: none; }
+.all__posts .container .card-subtitle {
+  padding-bottom: 2em;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase; }
+.all__posts .container .card-text {
+  padding-top: 2em;
+  padding-bottom: 2em; }
+.all__posts a {
+  text-decoration: none; }
+.all__posts span:hover {
+  color: black; }
+
+.spacein .choose {
+  margin: 1em 0 1em 0; }
+.spacein .icon {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #FBF6EA;
+  border-radius: 10px; }
+.spacein .card:hover {
+  background-color: #FFD050;
+  transition: all 1s ease; }
+
+.join .container {
+  background-color: white; }
+  .join .container .card {
+    background-color: white;
+    border: none; }
+  .join .container button {
+    padding: 1em 3em 1em 3em;
+    margin-top: 2em;
+    font-weight: 500;
+    font-size: 0.8em;
+    border-radius: unset;
+    background-color: #FFD050; }
+
+.container-fluid-2 {
+  background-color: #232536; }
+  .container-fluid-2 .container {
+    background-color: #363849;
+    padding-top: 2em;
+    padding-bottom: 2em; }
+    .container-fluid-2 .container .form-control {
+      background-color: #363849;
+      width: 300px;
+      margin-left: 2em; }
+    .container-fluid-2 .container button {
+      margin-left: 1em;
+      width: 100px;
+      height: 40px;
+      font-weight: 500;
+      font-size: 0.8em;
+      border-radius: unset;
+      background-color: #FFD050; }
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px; }
+
+@media (max-width: 991px) {
+  .fluid .container-fluid {
+    color: white;
+    background-image: linear-gradient(rgba(18, 19, 34, 0.925), rgba(37, 37, 39, 0.589)), url(man-in-white.png);
+    background-position: center;
+    background-size: cover; }
+  .fluid div {
+    color: white; } }
+@media (max-width: 767px) {
+  .all__posts .container .row {
+    padding-top: 1em; }
+  .all__posts .container .card-text {
+    padding-top: 1em;
+    padding-bottom: 1em; }
+  .all__posts div#one {
+    background-image: linear-gradient(70deg, rgba(243, 243, 243, 0.788), rgba(78, 76, 77, 0.589)), url(two-women.png); }
+  .all__posts div#two {
+    background-image: linear-gradient(70deg, rgba(243, 243, 243, 0.788), rgba(78, 76, 77, 0.589)), url(photo-of-people.png); }
+  .all__posts div#three {
+    background-image: linear-gradient(70deg, rgba(243, 243, 243, 0.788), rgba(78, 76, 77, 0.589)), url(photo-of-woman.png); }
+  .all__posts div#four {
+    background-image: linear-gradient(70deg, rgba(243, 243, 243, 0.788), rgba(78, 76, 77, 0.589)), url(photo-of-people-walking.png); }
+  .all__posts div#five {
+    background-image: linear-gradient(70deg, rgba(243, 243, 243, 0.788), rgba(78, 76, 77, 0.589)), url(two-women.png); } }
+
+/*# sourceMappingURL=styles2.css.map */
